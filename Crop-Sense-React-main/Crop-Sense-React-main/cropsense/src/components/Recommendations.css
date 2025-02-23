@@ -1,0 +1,159 @@
+.recom-back {
+    background-image: url('../../public/crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+.hero-recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* Hero Title */
+.hero-recommendations h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Description Text */
+.hero-recommendations p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* Content Wrapper for Split Layout */
+.content-wrapper-recommendations {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Form Container */
+.form-container-recommendations {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(247, 247, 247, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/* Form Labels */
+.form-container-recommendations label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Form Inputs */
+.form-container-recommendations input,
+.form-container-recommendations select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Submit Button */
+.form-container-recommendations button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.form-container-recommendations button[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Result Section */
+.result-recommendations {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(247, 247, 247, 0.8);
+    border: 1px solid #493d3d;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.result-recommendations h2 {
+    text-align: center;
+}
+
+/* Entered Data */
+.entered-data {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.entered-data li {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #232323;
+    color: #333;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+/* Cards */
+.card-recommendations {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Card Images */
+.card-recommendations img {
+    width: 33%;
+    object-fit: cover;
+    height: 150px;
+    border: 3px solid green;
+}
+
+/* Card Content */
+.card-content-recommendations {
+    padding: 20px;
+    width: 67%;
+}
+
+.card-title-recommendations {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin: 0;
+}
+
+.card-description-recommendations {
+    font-size: 1em;
+    color: #555;
+}
